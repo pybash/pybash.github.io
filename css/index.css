@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+body {
+    margin: 0;
+    background-color: rgb(65, 70, 92);
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.indexContainer {
+    position: absolute;
+    height: 500px;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: rgb(83, 91, 122);
+    z-index: 1;
+    text-align: center;
+}
+.indexContainer .funnyPunchline {
+    position: relative;
+    color:white;
+    font-size: 60px;
+    top:30%;
+    user-select: none;
+    transition: .2s ease-in-out;
+}
+.indexContainer .funnyPunchline #epicTypewriter
+{
+    color:rgb(85, 158, 255);
+}
+
+/* main content */
+.programsContainer {
+    position: absolute;
+    top:500px;
+    left:0px;
+    width: 100%;
+    height: 900px;
+}
+.programsContainer .programBox {
+width:1000px;
+height: 450px;
+margin: auto;
+color:white;
+margin-top: 30px;
+}
+.programsContainer .programBox h2 {
+    font-size: 27px;
+}
+.programsContainer .programBox .h2breakline {
+    position: relative;
+    top: -14px;
+    width:190px;
+    height: 2px;
+    background-color: rgb(83, 91, 122);
+}
+.programsContainer .programBox img {
+    height: 270px;
+    position: relative;
+    left:-40px;
+}
+
+.programsContainer .programBox .summary {
+    color:white;
+    width:500px;
+    height: 20px;
+    position: relative;
+    top:-260px;
+    left:300px
+}
+
+
+
+.message {
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    position: relative;
+    top: calc(500px + 120px);
+}
+/* headerbar stuff */
+
+#headerbar { 
+    position: absolute;
+    top:0;
+    left:0; /* might look useless, but idk about how cross compatiablity would work lol */
+    height: 40px;
+    width: 100%;
+    margin: auto;
+
+    text-align: center;
+    z-index: 200;
+}
+
+#headerbar #logo {
+    color:white;
+    font-size: 25px;
+    user-select: none;
+    font-weight: 400;
+    text-decoration: none !important;
+    z-index: inherit;
+    position: relative;
+    top: 50%;
+    right:300px;
+}
+#headerbar #logo #blued {
+    color: rgb(85, 158, 255);
+    z-index: inherit;
+}
+
+#headerbar .buttonDiv {
+    position: absolute;
+    top:0;
+    width: 600px;
+    height: 100%;
+    left:50%;
+    text-align: left;
+}
+#headerbar .buttonDiv .pageButon {
+
+    color:white;
+    font-size: 21px;
+ 
+    user-select: none;
+    font-weight: 400;
+    text-decoration: none !important;
+    z-index: inherit;
+    position: relative;
+    top: 50%;
+    margin-left:40px;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+}
+#headerbar .buttonDiv .pageButon:hover {
+    color:rgb(132, 183, 250);
+}
+#headerbar .buttonDiv .activeButton {
+    color: rgb(85, 158, 255);
+}
