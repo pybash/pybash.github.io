@@ -1,0 +1,87 @@
+
+@media only screen and (max-width: 1100px) {
+    .bottomBar {
+        min-height: 100px !important;
+        padding-bottom: 30px;
+        padding-top:20px;
+        flex-direction: column;
+    }
+    .bottomBar img {
+        width: 300px;
+    }
+    .bottomBar h2 {
+        font-size: 25px;
+        width: 100%;
+    }
+  }
+body {
+    margin:0 0;
+    padding: 0 0;
+    width:100%;
+    height:100%;
+    background: url('./imgs/Rush-Rhees-Library-University-of-Rochester-New-York.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 70%;
+    background-size: cover;
+    overflow: hidden;
+}
+.bottomBar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px ;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(33, 33, 33);
+    font-size: 20px;
+    text-align: center;
+}
+
+.bottomBar img {
+    height: 60%;
+}
+.bottomBar h2 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    width:380px;
+    height: 100%;
+}
+.bottomBar .num {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0;
+    height: 50px;
+    min-width: 50px;
+    padding: 5px 5px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffc70a;
+    font-size: 30px;
+    margin: 0 0;
+    font-weight: 600;
+}
+.bottomBar .colon {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0;
+    height: 50px;
+    width: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0;
+    font-weight: 800;
+}
+.coutndownDiv {
+    display: inline-block;
+}
